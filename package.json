@@ -1,0 +1,28 @@
+{
+  "name": "shaypor",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "native-base": "^2.12.1",
+    "react": "16.3.1",
+    "react-format-currency": "^0.1.2",
+    "react-native": "0.55.4",
+    "react-native-currency-formatter": "^1.0.3",
+    "react-native-globalize": "^3.0.0",
+    "react-number-format": "^4.0.7",
+    "react-timestamp": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-jest": "24.7.1",
+    "babel-preset-react-native": "4.0.1",
+    "jest": "24.7.1",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
